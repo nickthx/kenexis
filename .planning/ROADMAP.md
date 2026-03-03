@@ -97,11 +97,11 @@ Plans:
   2. User can read each of the four service detail pages (PHA/HAZOP/LOPA, QRA, Fire & Gas Mapping, SIS) with problem statement, methodology, deliverables sections
   3. User sees related services cross-links at the bottom of each service detail page that navigate to other service pages
   4. All service pages follow the established visual language (dark hero sections, scroll animations, consistent typography and color palette)
-**Plans**: TBD
+**Plans**: 2 plans
 
 Plans:
-- [ ] 05-01: TBD
-- [ ] 05-02: TBD
+- [ ] 05-01-PLAN.md — Services landing page (hero + grid), dynamic service detail pages (all 4 slugs), section components, and related services cross-links
+- [ ] 05-02-PLAN.md — Visual verification checkpoint for complete services section
 
 ### Phase 6: Software Products - Core
 **Goal**: Users can explore the KISS software platform overview and the two flagship product pages in a modern SaaS-style presentation
