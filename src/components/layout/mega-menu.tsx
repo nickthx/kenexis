@@ -1,6 +1,6 @@
 "use client";
 
-import Link from "next/link";
+import { Link } from "next-view-transitions";
 import { mainNavigation } from "@/lib/data/navigation";
 import { getNavIcon } from "@/lib/navigation-utils";
 import {

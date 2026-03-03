@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import Link from "next/link";
+import { Link } from "next-view-transitions";
 import Image from "next/image";
 import { Menu, ExternalLink } from "lucide-react";
 import { mainNavigation } from "@/lib/data/navigation";

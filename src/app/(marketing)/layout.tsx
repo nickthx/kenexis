@@ -1,13 +1,21 @@
+import { ViewTransitions } from "next-view-transitions";
+import { SiteHeader } from "@/components/layout/site-header";
+import { SiteFooter } from "@/components/layout/site-footer";
+import { Breadcrumbs } from "@/components/layout/breadcrumbs";
+
 export default function MarketingLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
   return (
-    <>
-      {/* Navigation will be added in Phase 2 */}
-      <main id="main-content">{children}</main>
-      {/* Footer will be added in Phase 2 */}
-    </>
+    <ViewTransitions>
+      <SiteHeader />
+      <Breadcrumbs />
+      <main id="main-content" className="min-h-screen pt-16">
+        {children}
+      </main>
+      <SiteFooter />
+    </ViewTransitions>
   );
 }

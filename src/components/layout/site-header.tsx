@@ -1,6 +1,6 @@
 "use client";
 
-import Link from "next/link";
+import { Link } from "next-view-transitions";
 import Image from "next/image";
 import { useScrollHeader } from "@/hooks/use-scroll-header";
 import { MegaMenu } from "@/components/layout/mega-menu";
