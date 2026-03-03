@@ -22,8 +22,8 @@ Requirements for the full pitch demo. Each maps to roadmap phases.
 - [x] **NAV-02**: User can access all site sections via mega menu dropdowns grouped by pillar (Services, Software, Training) with descriptions and product icons
 - [x] **NAV-03**: User on mobile can navigate full site via hamburger menu with accordion sub-navigation
 - [x] **NAV-04**: User sees breadcrumb navigation on all sub-pages for orientation within service/product hierarchies
-- [ ] **NAV-05**: User sees comprehensive footer with sitemap links, contact info (phone, email, address), social links (LinkedIn, YouTube, Spotify), KISS login link, Kenexis Store link, and copyright
-- [ ] **NAV-06**: User experiences smooth page transitions between routes via Framer Motion
+- [x] **NAV-05**: User sees comprehensive footer with sitemap links, contact info (phone, email, address), social links (LinkedIn, YouTube, Spotify), KISS login link, Kenexis Store link, and copyright
+- [x] **NAV-06**: User experiences smooth page transitions between routes via Framer Motion
 
 ### Homepage
 
@@ -149,8 +149,8 @@ Deferred to production adoption phase. Not in current roadmap.
 | NAV-02 | Phase 3 | Complete |
 | NAV-03 | Phase 3 | Complete |
 | NAV-04 | Phase 3 | Complete |
-| NAV-05 | Phase 3 | Pending |
-| NAV-06 | Phase 3 | Pending |
+| NAV-05 | Phase 3 | Complete |
+| NAV-06 | Phase 3 | Complete |
 | HOME-01 | Phase 4 | Pending |
 | HOME-02 | Phase 4 | Pending |
 | HOME-03 | Phase 4 | Pending |
