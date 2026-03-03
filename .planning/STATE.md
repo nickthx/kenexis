@@ -2,13 +2,13 @@
 gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
-status: unknown
-last_updated: "2026-03-03T21:57:20.966Z"
+status: in-progress
+last_updated: "2026-03-03T22:22:16.000Z"
 progress:
-  total_phases: 2
+  total_phases: 3
   completed_phases: 2
-  total_plans: 3
-  completed_plans: 3
+  total_plans: 4
+  completed_plans: 4
 ---
 
 # Project State
@@ -18,23 +18,23 @@ progress:
 See: .planning/PROJECT.md (updated 2026-03-03)
 
 **Core value:** Every page of kenexis.com faithfully reproduced with a dramatically better, premium visual design -- deployed live on Vercel as a convincing pitch demo.
-**Current focus:** Phase 2: Content Scraping & Data Layer (completing)
+**Current focus:** Phase 3: Layout Shell & Navigation (in progress)
 
 ## Current Position
 
-Phase: 2 of 10 (Content Scraping & Data Layer)
-Plan: 2 of 2 in current phase
-Status: Complete
-Last activity: 2026-03-03 -- Completed 02-01 (TypeScript data layer) and 02-02 (Image assets)
+Phase: 3 of 10 (Layout Shell & Navigation)
+Plan: 1 of 2 in current phase
+Status: Plan 03-01 complete, Plan 03-02 pending
+Last activity: 2026-03-03 -- Completed 03-01 (Navigation components: header, mega menu, mobile nav, breadcrumbs)
 
-Progress: [██░░░░░░░░] 20%
+Progress: [████░░░░░░] 40%
 
 ## Performance Metrics
 
 **Velocity:**
-- Total plans completed: 3
-- Average duration: 9 min
-- Total execution time: 0.45 hours
+- Total plans completed: 4
+- Average duration: 8 min
+- Total execution time: 0.50 hours
 
 **By Phase:**
 
@@ -42,9 +42,10 @@ Progress: [██░░░░░░░░] 20%
 |-------|-------|-------|----------|
 | 01 | 1/1 completed | 14 min | 14 min |
 | 02 | 2/2 completed | 13 min | 6.5 min |
+| 03 | 1/2 completed | 3 min | 3 min |
 
 **Recent Trend:**
-- Last 5 plans: 01-01 (14 min), 02-01 (8 min), 02-02 (5 min)
+- Last 5 plans: 01-01 (14 min), 02-01 (8 min), 02-02 (5 min), 03-01 (3 min)
 - Trend: Accelerating
 
 *Updated after each plan completion*
@@ -66,6 +67,10 @@ Recent decisions affecting current work:
 - [02-01]: Co-located types pattern used (interfaces + data + helpers in same file)
 - [02-01]: PricingTier array for dual-tier products (Open-PHA, Open-Audit: free desktop + paid cloud)
 - [02-02]: Kenexis logo saved as .jpg (site serves JPG, PNG not available)
+- [03-01]: NavigationMenu viewport=true (default) for built-in dropdown positioning
+- [03-01]: Software mega menu includes featured KISS overview link spanning full width
+- [03-01]: MobileNav Accordion type=multiple for simultaneous section expansion
+- [03-01]: Header text adapts: white on transparent bg, foreground on scrolled solid bg
 
 ### Pending Todos
 
@@ -79,5 +84,5 @@ None.
 ## Session Continuity
 
 Last session: 2026-03-03
-Stopped at: Completed Phase 02 -- Content Scraping & Data Layer (02-01 data layer + 02-02 image assets)
+Stopped at: Completed 03-01-PLAN.md -- Navigation components (header, mega menu, mobile nav, breadcrumbs)
 Resume file: None
