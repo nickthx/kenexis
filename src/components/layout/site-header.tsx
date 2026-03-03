@@ -16,7 +16,7 @@ export function SiteHeader() {
         "fixed top-0 z-50 w-full transition-all duration-300",
         scrolled
           ? "bg-background/95 backdrop-blur-md shadow-sm border-b text-foreground"
-          : "bg-transparent text-white"
+          : "bg-background text-foreground"
       )}
     >
       <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4">
