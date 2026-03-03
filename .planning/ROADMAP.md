@@ -81,12 +81,12 @@ Plans:
   3. User sees animated statistics counters (years in business, projects completed, global reach) that count up when scrolling into view
   4. User sees a recent content feed, newsletter signup form, and prominent contact CTA section -- all with consistent navy/orange palette, Inter typography, and generous whitespace
   5. User sees subtle scroll-triggered fade-in and stagger-reveal animations on all major sections via motion library
-**Plans**: TBD
+**Plans**: 3 plans
 
 Plans:
-- [ ] 04-01: TBD
-- [ ] 04-02: TBD
-- [ ] 04-03: TBD
+- [ ] 04-01-PLAN.md — Install shadcn Input, create NumberTicker component, build HeroSection + PillarsSection, replace homepage placeholder
+- [ ] 04-02-PLAN.md — Create StatsSection, FeaturedContentSection, NewsletterSection, ContactCTASection, wire all 6 sections into homepage
+- [ ] 04-03-PLAN.md — Visual verification checkpoint for complete homepage
 
 ### Phase 5: Services Pages
 **Goal**: Users can explore all four Kenexis consulting service areas through a polished landing page and individual detail pages
