@@ -1,6 +1,10 @@
 import type { Metadata } from "next";
 import { HeroSection } from "@/components/sections/hero-section";
 import { PillarsSection } from "@/components/sections/pillars-section";
+import { StatsSection } from "@/components/sections/stats-section";
+import { FeaturedContentSection } from "@/components/sections/featured-content-section";
+import { NewsletterSection } from "@/components/sections/newsletter-section";
+import { ContactCTASection } from "@/components/sections/contact-cta-section";
 import { homeSEO } from "@/lib/data/home";
 
 export const metadata: Metadata = {
@@ -15,9 +19,13 @@ export const metadata: Metadata = {
 
 export default function HomePage() {
   return (
-    <div>
+    <>
       <HeroSection />
       <PillarsSection />
-    </div>
+      <StatsSection />
+      <FeaturedContentSection />
+      <NewsletterSection />
+      <ContactCTASection />
+    </>
   );
 }
