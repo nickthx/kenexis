@@ -34,7 +34,7 @@ Decimal phases appear between their surrounding integers in numeric order.
   2. The navy (#0a1628) primary color, orange (#e87722) accent color, and Inter typography render correctly through Tailwind CSS utility classes
   3. At least one shadcn/ui component and one 21st.dev component are installed and render with the project's brand colors
   4. The project structure follows the (marketing) route group pattern with separate layout for public pages
-**Plans**: TBD
+**Plans**: 1 plan
 
 Plans:
 - [x] 01-01: Scaffold Next.js 16 + Tailwind v4 brand design system + shadcn/ui + 21st.dev ShimmerButton
@@ -49,11 +49,11 @@ Plans:
   3. Industrial stock images for hero sections and backgrounds are downloaded and accessible in public/images/stock/
   4. TypeScript compilation succeeds with strict mode -- all data files are fully typed with no `any` types
   5. No data file contains raw HTML, WordPress shortcodes, or external CDN image URLs
-**Plans**: TBD
+**Plans**: 2 plans
 
 Plans:
-- [ ] 02-01: TBD
-- [ ] 02-02: TBD
+- [ ] 02-01-PLAN.md — Complete TypeScript data layer (10 typed data files with all site content)
+- [ ] 02-02-PLAN.md — Image assets (team photos, logo, and industrial stock imagery)
 
 ### Phase 3: Layout Shell & Navigation
 **Goal**: Users can navigate the full site structure via a polished, responsive navigation system that persists across all pages
@@ -191,7 +191,7 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4 -> 5 (and 6, 8, 9 can parallel
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. Foundation & Scaffolding | 1/1 | Complete | 2026-03-03 |
-| 2. Content Scraping & Data Layer | 0/0 | Not started | - |
+| 2. Content Scraping & Data Layer | 0/2 | Planned | - |
 | 3. Layout Shell & Navigation | 0/0 | Not started | - |
 | 4. Homepage & Visual Design System | 0/0 | Not started | - |
 | 5. Services Pages | 0/0 | Not started | - |
