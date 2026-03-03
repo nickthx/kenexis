@@ -29,10 +29,10 @@ Requirements for the full pitch demo. Each maps to roadmap phases.
 
 - [x] **HOME-01**: User sees full-width hero section with clear value proposition, industrial imagery background, and dual CTA ("Explore Services" + "Try Our Software")
 - [x] **HOME-02**: User sees three-pillar overview section (Consulting, Software, Training) with icons, descriptions, and CTAs linking to each pillar
-- [ ] **HOME-03**: User sees social proof / trust signals section with industry metrics (years in business, projects, global reach)
-- [ ] **HOME-04**: User sees recent content feed showing 3-4 latest articles/webinars/podcast episodes with dates and thumbnails
-- [ ] **HOME-05**: User can sign up for the Kenexis newsletter via inline form
-- [ ] **HOME-06**: User sees prominent contact CTA section near footer ("Ready to discuss your safety challenges?")
+- [x] **HOME-03**: User sees social proof / trust signals section with industry metrics (years in business, projects, global reach)
+- [x] **HOME-04**: User sees recent content feed showing 3-4 latest articles/webinars/podcast episodes with dates and thumbnails
+- [x] **HOME-05**: User can sign up for the Kenexis newsletter via inline form
+- [x] **HOME-06**: User sees prominent contact CTA section near footer ("Ready to discuss your safety challenges?")
 
 ### Services
 
@@ -90,9 +90,9 @@ Requirements for the full pitch demo. Each maps to roadmap phases.
 
 - [x] **VIS-01**: All pages use consistent navy/dark blue primary, orange/amber accent, and white background color palette
 - [x] **VIS-02**: All pages use Inter font family with clear typographic hierarchy (headings, subheadings, body, captions)
-- [ ] **VIS-03**: User sees subtle scroll-triggered animations (fade-in, stagger reveals, counter animations) on key sections via Framer Motion
+- [x] **VIS-03**: User sees subtle scroll-triggered animations (fade-in, stagger reveals, counter animations) on key sections via Framer Motion
 - [x] **VIS-04**: User sees dark-mode hero sections with gradient accents and industrial photography overlays
-- [ ] **VIS-05**: User sees animated statistics counters (years, projects, clients) that count up when scrolling into view
+- [x] **VIS-05**: User sees animated statistics counters (years, projects, clients) that count up when scrolling into view
 - [x] **VIS-06**: All sections use generous whitespace, clear visual hierarchy, and premium B2B engineering aesthetic
 
 ### Technical
@@ -153,10 +153,10 @@ Deferred to production adoption phase. Not in current roadmap.
 | NAV-06 | Phase 3 | Complete |
 | HOME-01 | Phase 4 | Complete |
 | HOME-02 | Phase 4 | Complete |
-| HOME-03 | Phase 4 | Pending |
-| HOME-04 | Phase 4 | Pending |
-| HOME-05 | Phase 4 | Pending |
-| HOME-06 | Phase 4 | Pending |
+| HOME-03 | Phase 4 | Complete |
+| HOME-04 | Phase 4 | Complete |
+| HOME-05 | Phase 4 | Complete |
+| HOME-06 | Phase 4 | Complete |
 | SERV-01 | Phase 5 | Pending |
 | SERV-02 | Phase 5 | Pending |
 | SERV-03 | Phase 5 | Pending |
@@ -190,9 +190,9 @@ Deferred to production adoption phase. Not in current roadmap.
 | CONTACT-02 | Phase 9 | Pending |
 | VIS-01 | Phase 4 | Complete |
 | VIS-02 | Phase 4 | Complete |
-| VIS-03 | Phase 4 | Pending |
+| VIS-03 | Phase 4 | Complete |
 | VIS-04 | Phase 4 | Complete |
-| VIS-05 | Phase 4 | Pending |
+| VIS-05 | Phase 4 | Complete |
 | VIS-06 | Phase 4 | Complete |
 | TECH-01 | Phase 10 | Pending |
 | TECH-02 | Phase 10 | Pending |
