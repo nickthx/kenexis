@@ -65,11 +65,11 @@ Plans:
   3. User on a 375px mobile viewport can open a hamburger menu and navigate to any page via accordion sub-navigation
   4. User sees breadcrumb navigation on service and product sub-pages showing the hierarchy (e.g., Home > Software > Open-PHA)
   5. User sees a comprehensive footer with sitemap links, phone/email, social links (LinkedIn, YouTube, Spotify), KISS login, Kenexis Store link, and copyright
-**Plans**: TBD
+**Plans**: 2 plans
 
 Plans:
-- [ ] 03-01: TBD
-- [ ] 03-02: TBD
+- [ ] 03-01-PLAN.md — Install deps, navigation utilities, sticky header with mega menu, mobile nav, and breadcrumbs
+- [ ] 03-02-PLAN.md — Comprehensive footer, layout wiring with ViewTransitions, and visual verification
 
 ### Phase 4: Homepage & Visual Design System
 **Goal**: Users see a complete, polished homepage that establishes the premium visual language and creates all reusable section components used by subsequent pages
@@ -191,8 +191,8 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4 -> 5 (and 6, 8, 9 can parallel
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. Foundation & Scaffolding | 1/1 | Complete | 2026-03-03 |
-| 2. Content Scraping & Data Layer | 0/2 | Planned | - |
-| 3. Layout Shell & Navigation | 0/0 | Not started | - |
+| 2. Content Scraping & Data Layer | 2/2 | Complete | 2026-03-03 |
+| 3. Layout Shell & Navigation | 0/2 | Planned | - |
 | 4. Homepage & Visual Design System | 0/0 | Not started | - |
 | 5. Services Pages | 0/0 | Not started | - |
 | 6. Software Products - Core | 0/0 | Not started | - |
