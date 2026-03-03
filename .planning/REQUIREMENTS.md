@@ -11,9 +11,9 @@ Requirements for the full pitch demo. Each maps to roadmap phases.
 
 - [x] **FOUND-01**: Project scaffolded with Next.js 15, React, TypeScript, Tailwind CSS v4, shadcn/ui, and motion library
 - [x] **FOUND-02**: Brand design system established — navy (#0a1628) primary, orange (#e87722) accent, Inter typography, consistent spacing and component tokens
-- [ ] **FOUND-03**: All real content scraped from kenexis.com and structured into typed TypeScript data files — nothing invented
-- [ ] **FOUND-04**: Real team photos and headshots downloaded from kenexis.com and stored locally
-- [ ] **FOUND-05**: Stock industrial imagery sourced from Unsplash/Pexels for heroes and section backgrounds
+- [x] **FOUND-03**: All real content scraped from kenexis.com and structured into typed TypeScript data files — nothing invented
+- [x] **FOUND-04**: Real team photos and headshots downloaded from kenexis.com and stored locally
+- [x] **FOUND-05**: Stock industrial imagery sourced from Unsplash/Pexels for heroes and section backgrounds
 - [x] **FOUND-06**: 21st.dev and local design repo components evaluated and integrated where they elevate quality
 
 ### Navigation & Layout
@@ -141,9 +141,9 @@ Deferred to production adoption phase. Not in current roadmap.
 |-------------|-------|--------|
 | FOUND-01 | Phase 1 | Pending |
 | FOUND-02 | Phase 1 | Pending |
-| FOUND-03 | Phase 2 | Pending |
-| FOUND-04 | Phase 2 | Pending |
-| FOUND-05 | Phase 2 | Pending |
+| FOUND-03 | Phase 2 | Complete |
+| FOUND-04 | Phase 2 | Complete |
+| FOUND-05 | Phase 2 | Complete |
 | FOUND-06 | Phase 1 | Pending |
 | NAV-01 | Phase 3 | Pending |
 | NAV-02 | Phase 3 | Pending |
