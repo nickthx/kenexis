@@ -8,7 +8,7 @@ progress:
   total_phases: 6
   completed_phases: 5
   total_plans: 13
-  completed_plans: 11
+  completed_plans: 12
 ---
 
 # Project State
@@ -23,18 +23,18 @@ See: .planning/PROJECT.md (updated 2026-03-03)
 ## Current Position
 
 Phase: 6 of 10 (Software Products Core)
-Plan: 2 of 3 in current phase
-Status: Completed 06-02 (product detail pages) -- 06-01 and 06-03 remaining
-Last activity: 2026-03-04 -- Completed 06-02 (Product detail section components and dynamic [slug] route)
+Plan: 2 of 3 in current phase (06-01 and 06-02 complete, 06-03 remaining)
+Status: Completed 06-01 (software landing page) -- 06-03 remaining
+Last activity: 2026-03-04 -- Completed 06-01 (Software landing page with hero, product grid, ecosystem, CTAs)
 
-Progress: [██████░░░░] 55%
+Progress: [██████░░░░] 62%
 
 ## Performance Metrics
 
 **Velocity:**
-- Total plans completed: 11
-- Average duration: 5.2 min
-- Total execution time: 0.95 hours
+- Total plans completed: 12
+- Average duration: 5.0 min
+- Total execution time: 1.0 hours
 
 **By Phase:**
 
@@ -45,10 +45,10 @@ Progress: [██████░░░░] 55%
 | 03 | 2/2 completed | 15 min | 7.5 min |
 | 04 | 3/3 completed | 6 min | 2 min |
 | 05 | 2/2 completed | 4 min | 2 min |
-| 06 | 1/3 completed | 2 min | 2 min |
+| 06 | 2/3 completed | 5 min | 2.5 min |
 
 **Recent Trend:**
-- Last 5 plans: 04-02 (2 min), 04-03 (1 min), 05-01 (3 min), 05-02 (1 min), 06-02 (2 min)
+- Last 5 plans: 04-03 (1 min), 05-01 (3 min), 05-02 (1 min), 06-02 (2 min), 06-01 (3 min)
 - Trend: Fast execution continues
 
 *Updated after each plan completion*
@@ -93,6 +93,9 @@ Recent decisions affecting current work:
 - [06-02]: Product integrations resolve icons via softwareProducts name lookup (not a separate mapping)
 - [06-02]: Pricing uses Intl.NumberFormat for currency formatting; external CTAs use <a> tags (not Link)
 - [06-02]: Product detail sections pattern: 4 reusable components with motion stagger animations
+- [06-01]: AnimatedBeam copied from magicui with zero modifications (uses motion/react and cn() already)
+- [06-01]: Ecosystem nodes use CSS percentage-based circular positioning via trigonometric calculation
+- [06-01]: External CTAs use anchor tags via Button asChild (not next-view-transitions Link) for target=_blank
 
 ### Pending Todos
 
@@ -106,5 +109,5 @@ None.
 ## Session Continuity
 
 Last session: 2026-03-04
-Stopped at: Completed 06-02-PLAN.md -- Product detail pages with dynamic [slug] route
+Stopped at: Completed 06-01-PLAN.md -- Software landing page with hero, product grid, ecosystem visualization, CTAs
 Resume file: None

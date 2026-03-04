@@ -45,8 +45,8 @@ Requirements for the full pitch demo. Each maps to roadmap phases.
 
 ### Software Products
 
-- [ ] **SOFT-01**: User sees software landing page with KISS platform overview and product suite grid showing all 7 products with icons, names, descriptions, and CTAs
-- [ ] **SOFT-02**: User sees interactive product ecosystem visualization showing how all 7 KISS products interrelate within the platform
+- [x] **SOFT-01**: User sees software landing page with KISS platform overview and product suite grid showing all 7 products with icons, names, descriptions, and CTAs
+- [x] **SOFT-02**: User sees interactive product ecosystem visualization showing how all 7 KISS products interrelate within the platform
 - [x] **SOFT-03**: User can read dedicated Open-PHA® product page with SaaS-style hero, feature grid, benefits section, and CTA to KISS platform
 - [x] **SOFT-04**: User can read dedicated Vertigo™ product page with same SaaS-style structure
 - [ ] **SOFT-05**: User can read dedicated Arbor™ product page with same structure
@@ -163,8 +163,8 @@ Deferred to production adoption phase. Not in current roadmap.
 | SERV-04 | Phase 5 | Complete |
 | SERV-05 | Phase 5 | Complete |
 | SERV-06 | Phase 5 | Complete |
-| SOFT-01 | Phase 6 | Pending |
-| SOFT-02 | Phase 6 | Pending |
+| SOFT-01 | Phase 6 | Complete |
+| SOFT-02 | Phase 6 | Complete |
 | SOFT-03 | Phase 6 | Complete |
 | SOFT-04 | Phase 6 | Complete |
 | SOFT-05 | Phase 7 | Pending |
