@@ -144,11 +144,12 @@ Plans:
   3. User sees a centralized resource hub page with all content types organized and categorized (webinars, papers, podcast, tools)
   4. User can view recorded webinar listings, papers/articles/books listings, and podcast episodes linking to Spotify
   5. User can register for the newsletter from the resources page and sees links to YouTube channel and RSS feed
-**Plans**: TBD
+**Plans**: 3 plans
 
 Plans:
-- [ ] 08-01: TBD
-- [ ] 08-02: TBD
+- [ ] 08-01-PLAN.md — Training page with course catalog, training info, and Kenexis Unlimited subscription section
+- [ ] 08-02-PLAN.md — Resources hub page with category grid, webinar/paper listings, podcast section, and newsletter signup
+- [ ] 08-03-PLAN.md — Visual verification checkpoint for training and resources pages
 
 ### Phase 9: Company, Careers & Contact
 **Goal**: Users can learn about Kenexis as a company, view the team, find representatives, explore career opportunities, and submit an inquiry
@@ -197,6 +198,6 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4 -> 5 (and 6, 8, 9 can parallel
 | 5. Services Pages | 2/2 | Complete | 2026-03-04 |
 | 6. Software Products - Core | 3/3 | Complete | 2026-03-04 |
 | 7. Software Products - Complete | 2/2 | Complete | 2026-03-04 |
-| 8. Training & Resources | 0/0 | Not started | - |
+| 8. Training & Resources | 0/3 | Not started | - |
 | 9. Company, Careers & Contact | 0/0 | Not started | - |
 | 10. Polish, SEO & Deployment | 0/0 | Not started | - |
