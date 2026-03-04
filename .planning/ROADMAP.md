@@ -20,7 +20,7 @@ Decimal phases appear between their surrounding integers in numeric order.
 - [x] **Phase 6: Software Products - Core** - Software landing page, product ecosystem visualization, Open-PHA and Vertigo product pages, KISS platform CTAs (completed 2026-03-04)
 - [x] **Phase 7: Software Products - Complete** - Remaining five product pages (Arbor, Bowtie-Q, Open-Audit, Effigy, KISS API) plus comparison tables (completed 2026-03-04)
 - [x] **Phase 8: Training & Resources** - Training page with courses and Kenexis Unlimited, resource hub with all content types (completed 2026-03-04)
-- [ ] **Phase 9: Company, Careers & Contact** - About page with team grid, representatives, careers page, and contact form
+- [x] **Phase 9: Company, Careers & Contact** - About page with team grid, representatives, careers page, and contact form (completed 2026-03-04)
 - [ ] **Phase 10: Polish, SEO & Deployment** - Responsive audit, performance optimization, SEO metadata, and Vercel deployment with shareable URL
 
 ## Phase Details
@@ -161,11 +161,12 @@ Plans:
   3. User can view the representatives page listing global representatives with regions and contact details
   4. User can view the careers page with job listings and company culture information
   5. User can fill out and submit a contact form (demo mode with success toast) and sees phone (+1-614-451-7031) and email (info@kenexis.com) prominently displayed
-**Plans**: TBD
+**Plans**: 3 plans
 
 Plans:
-- [ ] 09-01: TBD
-- [ ] 09-02: TBD
+- [x] 09-01: About page with company overview, leadership preview, team grid, and representatives by region
+- [x] 09-02: Careers page with job listings and culture, Contact page with demo form and info display
+- [x] 09-03: Visual verification checkpoint for all 5 Phase 9 pages
 
 ### Phase 10: Polish, SEO & Deployment
 **Goal**: The complete site is responsive, performant, SEO-ready, and deployed to Vercel with a shareable URL that previews correctly when shared
@@ -199,5 +200,5 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4 -> 5 (and 6, 8, 9 can parallel
 | 6. Software Products - Core | 3/3 | Complete | 2026-03-04 |
 | 7. Software Products - Complete | 2/2 | Complete | 2026-03-04 |
 | 8. Training & Resources | 3/3 | Complete | 2026-03-04 |
-| 9. Company, Careers & Contact | 0/0 | Not started | - |
+| 9. Company, Careers & Contact | 3/3 | Complete | 2026-03-04 |
 | 10. Polish, SEO & Deployment | 0/0 | Not started | - |
