@@ -6,7 +6,17 @@ import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import { homeNewsletterCTA } from "@/lib/data/home";
 
-export function NewsletterSection() {
+interface NewsletterSectionProps {
+  title?: string;
+  description?: string;
+  buttonText?: string;
+}
+
+export function NewsletterSection({
+  title,
+  description,
+  buttonText,
+}: NewsletterSectionProps) {
   const [submitted, setSubmitted] = useState(false);
 
   return (
@@ -19,10 +29,10 @@ export function NewsletterSection() {
         className="mx-auto max-w-2xl px-4 text-center"
       >
         <h2 className="text-3xl font-bold text-foreground mb-4">
-          {homeNewsletterCTA.title}
+          {title ?? homeNewsletterCTA.title}
         </h2>
         <p className="text-lg text-muted-foreground mb-8">
-          {homeNewsletterCTA.description}
+          {description ?? homeNewsletterCTA.description}
         </p>
 
         <form
@@ -45,7 +55,7 @@ export function NewsletterSection() {
             disabled={submitted}
             className="bg-accent text-accent-foreground hover:bg-orange-600"
           >
-            {submitted ? "Subscribed!" : homeNewsletterCTA.buttonText}
+            {submitted ? "Subscribed!" : (buttonText ?? homeNewsletterCTA.buttonText)}
           </Button>
         </form>
 
