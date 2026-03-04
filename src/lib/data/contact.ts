@@ -19,33 +19,11 @@ export const contactInfo: ContactInfo = {
 
 export const contactFormFields: FormField[] = [
   {
-    name: "subject",
-    label: "Subject",
+    name: "name",
+    label: "Name",
     type: "text",
     required: true,
-    placeholder: "How can we help you?",
-  },
-  {
-    name: "message",
-    label: "Message",
-    type: "textarea",
-    required: true,
-    placeholder: "Tell us about your project or question...",
-    maxLength: 300,
-  },
-  {
-    name: "firstName",
-    label: "First Name",
-    type: "text",
-    required: true,
-    placeholder: "Your first name",
-  },
-  {
-    name: "lastName",
-    label: "Last Name",
-    type: "text",
-    required: true,
-    placeholder: "Your last name",
+    placeholder: "Your full name",
   },
   {
     name: "email",
@@ -60,6 +38,37 @@ export const contactFormFields: FormField[] = [
     type: "text",
     required: false,
     placeholder: "Your company name (optional)",
+  },
+  {
+    name: "phone",
+    label: "Phone",
+    type: "tel",
+    required: false,
+    placeholder: "+1 (555) 000-0000 (optional)",
+  },
+  {
+    name: "serviceInterest",
+    label: "Service Interest",
+    type: "select",
+    required: false,
+    options: [
+      "Process Hazards Analysis",
+      "Quantitative Risk Analysis",
+      "Fire & Gas Mapping",
+      "Safety Instrumented Systems",
+      "Software Products",
+      "Training",
+      "General Inquiry",
+    ],
+    placeholder: "Select a service area",
+  },
+  {
+    name: "message",
+    label: "Message",
+    type: "textarea",
+    required: true,
+    placeholder: "Tell us about your project or question...",
+    maxLength: 500,
   },
 ];
 
