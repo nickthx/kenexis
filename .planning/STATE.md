@@ -3,7 +3,7 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: unknown
-last_updated: "2026-03-04T15:45:43.000Z"
+last_updated: "2026-03-04T15:47:57.918Z"
 progress:
   total_phases: 9
   completed_phases: 8
@@ -115,6 +115,9 @@ Recent decisions affecting current work:
 - [09-02]: ContactFormSection uses filter-based field rendering for layout control (paired rows vs full-width)
 - [09-02]: ContactInfoSection uses static infoItems array with conditional href for clickable phone/email
 - [09-02]: No ContactCTASection on contact page to avoid self-referential 'Contact Us' link
+- [Phase 09]: [09-01]: Leadership members distinguished by ring-2 ring-accent on photo container plus Leadership badge
+- [Phase 09]: [09-01]: Representatives grouped by 6 geographic regions using filter-based region matching
+- [Phase 09]: [09-01]: URL.hostname used to display clean website links for representatives
 
 ### Pending Todos
 
@@ -128,5 +131,5 @@ None.
 ## Session Continuity
 
 Last session: 2026-03-04
-Stopped at: Completed 09-02-PLAN.md -- Careers & Contact pages built
+Stopped at: Completed 09-01-PLAN.md -- About, Team, and Representatives pages
 Resume file: None

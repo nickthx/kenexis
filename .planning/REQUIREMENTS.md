@@ -73,9 +73,9 @@ Requirements for the full pitch demo. Each maps to roadmap phases.
 
 ### Company
 
-- [ ] **COMP-01**: User can read company overview page with Kenexis history, mission, and key differentiators
-- [ ] **COMP-02**: User sees senior staff/team section with real photos, names, titles, and brief bios scraped from kenexis.com
-- [ ] **COMP-03**: User can view representatives page listing global representatives with regions and contact details
+- [x] **COMP-01**: User can read company overview page with Kenexis history, mission, and key differentiators
+- [x] **COMP-02**: User sees senior staff/team section with real photos, names, titles, and brief bios scraped from kenexis.com
+- [x] **COMP-03**: User can view representatives page listing global representatives with regions and contact details
 
 ### Careers
 
@@ -182,9 +182,9 @@ Deferred to production adoption phase. Not in current roadmap.
 | RES-04 | Phase 8 | Complete |
 | RES-05 | Phase 8 | Complete |
 | RES-06 | Phase 8 | Complete |
-| COMP-01 | Phase 9 | Pending |
-| COMP-02 | Phase 9 | Pending |
-| COMP-03 | Phase 9 | Pending |
+| COMP-01 | Phase 9 | Complete |
+| COMP-02 | Phase 9 | Complete |
+| COMP-03 | Phase 9 | Complete |
 | CAREER-01 | Phase 9 | Complete |
 | CONTACT-01 | Phase 9 | Complete |
 | CONTACT-02 | Phase 9 | Complete |
