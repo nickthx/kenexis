@@ -19,7 +19,7 @@ Decimal phases appear between their surrounding integers in numeric order.
 - [x] **Phase 5: Services Pages** - Services landing page plus all four service detail pages with cross-links (completed 2026-03-04)
 - [x] **Phase 6: Software Products - Core** - Software landing page, product ecosystem visualization, Open-PHA and Vertigo product pages, KISS platform CTAs (completed 2026-03-04)
 - [x] **Phase 7: Software Products - Complete** - Remaining five product pages (Arbor, Bowtie-Q, Open-Audit, Effigy, KISS API) plus comparison tables (completed 2026-03-04)
-- [ ] **Phase 8: Training & Resources** - Training page with courses and Kenexis Unlimited, resource hub with all content types
+- [x] **Phase 8: Training & Resources** - Training page with courses and Kenexis Unlimited, resource hub with all content types (completed 2026-03-04)
 - [ ] **Phase 9: Company, Careers & Contact** - About page with team grid, representatives, careers page, and contact form
 - [ ] **Phase 10: Polish, SEO & Deployment** - Responsive audit, performance optimization, SEO metadata, and Vercel deployment with shareable URL
 
@@ -147,9 +147,9 @@ Plans:
 **Plans**: 3 plans
 
 Plans:
-- [ ] 08-01-PLAN.md — Training page with course catalog, training info, and Kenexis Unlimited subscription section
-- [ ] 08-02-PLAN.md — Resources hub page with category grid, webinar/paper listings, podcast section, and newsletter signup
-- [ ] 08-03-PLAN.md — Visual verification checkpoint for training and resources pages
+- [x] 08-01-PLAN.md — Training page with course catalog, training info, and Kenexis Unlimited subscription section
+- [x] 08-02-PLAN.md — Resources hub page with category grid, webinar/paper listings, podcast section, and newsletter signup
+- [x] 08-03-PLAN.md — Visual verification checkpoint for training and resources pages
 
 ### Phase 9: Company, Careers & Contact
 **Goal**: Users can learn about Kenexis as a company, view the team, find representatives, explore career opportunities, and submit an inquiry
@@ -198,6 +198,6 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4 -> 5 (and 6, 8, 9 can parallel
 | 5. Services Pages | 2/2 | Complete | 2026-03-04 |
 | 6. Software Products - Core | 3/3 | Complete | 2026-03-04 |
 | 7. Software Products - Complete | 2/2 | Complete | 2026-03-04 |
-| 8. Training & Resources | 0/3 | Not started | - |
+| 8. Training & Resources | 3/3 | Complete | 2026-03-04 |
 | 9. Company, Careers & Contact | 0/0 | Not started | - |
 | 10. Polish, SEO & Deployment | 0/0 | Not started | - |
