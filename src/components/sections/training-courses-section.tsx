@@ -78,7 +78,7 @@ export function TrainingCoursesSection() {
             Course Catalog
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            15 online on-demand courses covering process safety fundamentals,
+            16 online on-demand courses covering process safety fundamentals,
             Kenexis software products, and fire &amp; gas engineering
           </p>
         </div>
