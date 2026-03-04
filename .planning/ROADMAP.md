@@ -179,11 +179,12 @@ Plans:
   4. The site is live on Vercel with a shareable URL that loads without errors
   5. All external links (KISS login, Kenexis Store, LinkedIn, YouTube, Spotify) open in new tabs and resolve correctly
 
-**Plans**: TBD
+**Plans**: 3 plans
 
 Plans:
-- [ ] 10-01: TBD
-- [ ] 10-02: TBD
+- [ ] 10-01: SEO metadata layer -- metadataBase, title.template, ogImage for all 15 missing pages, sitemap.ts, robots.ts, external link verification
+- [ ] 10-02: Responsive audit -- mobile grid fallback for ecosystem section, viewport and image sizes audit
+- [ ] 10-03: Vercel deployment and final human verification checkpoint
 
 ## Progress
 
@@ -201,4 +202,4 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4 -> 5 (and 6, 8, 9 can parallel
 | 7. Software Products - Complete | 2/2 | Complete | 2026-03-04 |
 | 8. Training & Resources | 3/3 | Complete | 2026-03-04 |
 | 9. Company, Careers & Contact | 3/3 | Complete | 2026-03-04 |
-| 10. Polish, SEO & Deployment | 0/0 | Not started | - |
+| 10. Polish, SEO & Deployment | 0/3 | Planned | - |
