@@ -290,4 +290,5 @@ export const representativesSEO: SEOMeta = {
   title: "Global Representatives - Kenexis",
   description:
     "Find Kenexis representatives worldwide. Local support for process safety consulting, software, and training across North America, South America, Europe, Middle East, Asia Pacific, and Africa.",
+  ogImage: "/images/stock/about-hero.jpg",
 };

@@ -99,4 +99,5 @@ export const contactSEO: SEOMeta = {
   title: "Contact Kenexis - Process Safety Consulting",
   description:
     "Get in touch with Kenexis for process safety consulting, software inquiries, and training information. Phone: +1-614-451-7031.",
+  ogImage: "/images/stock/hero-control-room.jpg",
 };

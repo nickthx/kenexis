@@ -125,4 +125,5 @@ export const resourcesSEO: SEOMeta = {
   title: "Process Safety Resources - Kenexis",
   description:
     "Access webinars, papers, tools, podcast episodes, and videos on process safety topics from Kenexis experts.",
+  ogImage: "/images/stock/hero-control-room.jpg",
 };

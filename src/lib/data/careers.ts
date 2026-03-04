@@ -57,4 +57,5 @@ export const careersSEO: SEOMeta = {
   title: "Careers at Kenexis - Process Safety Jobs",
   description:
     "Join the Kenexis team. Open positions in process safety engineering, electrical engineering, and more. Competitive benefits and flexible work.",
+  ogImage: "/images/stock/hero-safety-equipment.jpg",
 };

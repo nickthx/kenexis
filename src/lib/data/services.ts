@@ -81,6 +81,7 @@ export const serviceAreas: ServiceArea[] = [
       title: "Process Hazards Analysis (PHA) Services - Kenexis",
       description:
         "Expert PHA facilitation including HAZOP, LOPA, and QRA studies aligned with ISA/IEC 61511 and OSHA PSM requirements.",
+      ogImage: "/images/stock/services-hero.jpg",
     },
   },
   {
@@ -138,6 +139,7 @@ export const serviceAreas: ServiceArea[] = [
       title: "Quantitative Risk Analysis (QRA) Services - Kenexis",
       description:
         "Rigorous QRA studies including FMEA, facility siting, dispersion modeling, and consequence analysis per OSHA PSM and API standards.",
+      ogImage: "/images/stock/services-hero.jpg",
     },
   },
   {
@@ -193,6 +195,7 @@ export const serviceAreas: ServiceArea[] = [
       title: "Fire & Gas Mapping Services - Kenexis",
       description:
         "Performance-based fire and gas detection mapping per ISA TR84.00.07 using proprietary Effigy software for optimal detector placement.",
+      ogImage: "/images/stock/services-hero.jpg",
     },
   },
   {
@@ -250,6 +253,7 @@ export const serviceAreas: ServiceArea[] = [
       title: "Safety Instrumented Systems (SIS) Services - Kenexis",
       description:
         "Comprehensive SIS lifecycle services including SIL verification, SRS development, FSA, and SAT per IEC 61511 and IEC 61508.",
+      ogImage: "/images/stock/services-hero.jpg",
     },
   },
 ];

@@ -113,6 +113,7 @@ export const softwareProducts: SoftwareProduct[] = [
       title: "Open-PHA - PHA Management Software - Kenexis",
       description:
         "Simplified PHA management with HAZOP, LOPA, and checklist support. Free desktop version or cloud-based collaboration.",
+      ogImage: "/images/stock/software-hero.jpg",
     },
     comparisonTable: {
       rows: [
@@ -183,6 +184,7 @@ export const softwareProducts: SoftwareProduct[] = [
       title: "Vertigo - SIS Lifecycle Management - Kenexis",
       description:
         "Comprehensive SIS lifecycle management and SIL verification per ISA TR84.00.02 with integrated failure rate database.",
+      ogImage: "/images/stock/software-hero.jpg",
     },
     comparisonTable: {
       rows: [
@@ -252,6 +254,7 @@ export const softwareProducts: SoftwareProduct[] = [
       title: "Arbor - Fault-Tree Analysis Software - Kenexis",
       description:
         "Fault-tree analysis for system reliability modeling with minimum cut set analysis and Vertigo integration.",
+      ogImage: "/images/stock/software-hero.jpg",
     },
     comparisonTable: {
       rows: [
@@ -316,6 +319,7 @@ export const softwareProducts: SoftwareProduct[] = [
       title: "Bowtie-Q - Quantitative Bowtie Analysis - Kenexis",
       description:
         "Interactive quantitative bowtie analysis with automatic risk calculations and TMEL compliance tracking.",
+      ogImage: "/images/stock/software-hero.jpg",
     },
     comparisonTable: {
       rows: [
@@ -390,6 +394,7 @@ export const softwareProducts: SoftwareProduct[] = [
       title: "Open-Audit - Validation & Auditing Software - Kenexis",
       description:
         "Structured validation and auditing for IEC 61511 and OSHA 1910.119 with assessor worksheets and compliance tracking.",
+      ogImage: "/images/stock/software-hero.jpg",
     },
     comparisonTable: {
       rows: [
@@ -460,6 +465,7 @@ export const softwareProducts: SoftwareProduct[] = [
       title: "Effigy - Fire & Gas Mapping Software - Kenexis",
       description:
         "Patented fire and gas mapping with plume modeling, 3D CAD import, and ISA-TR84.00.07 compliance for optimal detector placement.",
+      ogImage: "/images/stock/software-hero.jpg",
     },
     comparisonTable: {
       rows: [
@@ -530,6 +536,7 @@ export const softwareProducts: SoftwareProduct[] = [
       title: "KISS API - Data Integration - Kenexis",
       description:
         "Programmatic access to KISS platform data for Power BI, Tableau, CMMS, and ERP integration with JSON format.",
+      ogImage: "/images/stock/software-hero.jpg",
     },
     comparisonTable: {
       rows: [
