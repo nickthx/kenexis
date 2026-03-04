@@ -20,6 +20,12 @@ export interface PricingTier {
   note?: string;
 }
 
+export interface ComparisonRow {
+  aspect: string;
+  traditional: string;
+  modern: string;
+}
+
 export interface SoftwareProduct {
   id: ProductId;
   name: string;
@@ -34,6 +40,10 @@ export interface SoftwareProduct {
   heroImage: string;
   icon: string;
   seo: SEOMeta;
+  comparisonTable: {
+    title?: string;
+    rows: ComparisonRow[];
+  };
 }
 
 export interface KISSOverview {
@@ -104,6 +114,40 @@ export const softwareProducts: SoftwareProduct[] = [
       description:
         "Simplified PHA management with HAZOP, LOPA, and checklist support. Free desktop version or cloud-based collaboration.",
     },
+    comparisonTable: {
+      rows: [
+        {
+          aspect: "Pricing Transparency",
+          traditional: "Hidden fees and restrictive per-seat licensing",
+          modern: "Clear pricing with free desktop version and concurrent user licensing",
+        },
+        {
+          aspect: "Data Portability",
+          traditional: "Proprietary file formats with vendor lock-in",
+          modern: "Non-proprietary JSON data structure, exportable and integrable",
+        },
+        {
+          aspect: "Platform Access",
+          traditional: "Windows-only desktop applications",
+          modern: "Cross-platform (Windows, Mac, Linux) with cloud option",
+        },
+        {
+          aspect: "Updates & Maintenance",
+          traditional: "Manual updates, often charged separately",
+          modern: "Automatic cloud updates at no additional cost",
+        },
+        {
+          aspect: "Collaboration",
+          traditional: "Single-user or file-sharing workarounds",
+          modern: "Multi-user cloud with dashboards and revision management",
+        },
+        {
+          aspect: "Integration",
+          traditional: "Standalone tool with no ecosystem connectivity",
+          modern: "Seamless integration with KISS platform modules",
+        },
+      ],
+    },
   },
   {
     id: "vertigo",
@@ -140,6 +184,40 @@ export const softwareProducts: SoftwareProduct[] = [
       description:
         "Comprehensive SIS lifecycle management and SIL verification per ISA TR84.00.02 with integrated failure rate database.",
     },
+    comparisonTable: {
+      rows: [
+        {
+          aspect: "SIL Verification Speed",
+          traditional: "Weeks of manual calculations using spreadsheets",
+          modern: "Automated SIL verification engine with instant results",
+        },
+        {
+          aspect: "Failure Rate Data",
+          traditional: "Manual lookup from published literature and standards",
+          modern: "Integrated curated failure rate database included at no cost",
+        },
+        {
+          aspect: "Proof Test Optimization",
+          traditional: "Fixed intervals based on conservative assumptions",
+          modern: "Data-driven proof test interval optimization for cost savings",
+        },
+        {
+          aspect: "Documentation",
+          traditional: "Manual SRS creation in Word documents",
+          modern: "Automated Safety Requirements Specification generation",
+        },
+        {
+          aspect: "Compliance Tracking",
+          traditional: "Spreadsheet-based tracking prone to version conflicts",
+          modern: "Built-in dashboards with real-time compliance status",
+        },
+        {
+          aspect: "Integration",
+          traditional: "Isolated SIS tool with manual data re-entry",
+          modern: "Direct linkage to Open-PHA, Arbor, and KISS platform",
+        },
+      ],
+    },
   },
   {
     id: "arbor",
@@ -175,6 +253,35 @@ export const softwareProducts: SoftwareProduct[] = [
       description:
         "Fault-tree analysis for system reliability modeling with minimum cut set analysis and Vertigo integration.",
     },
+    comparisonTable: {
+      rows: [
+        {
+          aspect: "Complexity Handling",
+          traditional: "Simplified equations adequate only for simple systems",
+          modern: "Full fault-tree analysis for complex system verification",
+        },
+        {
+          aspect: "Failure Rate Data",
+          traditional: "Manual lookup and entry of failure rates from literature",
+          modern: "Integrated curated failure rate database included at no cost",
+        },
+        {
+          aspect: "SIS Integration",
+          traditional: "Separate tools with manual data transfer to SIS software",
+          modern: "Direct linkage to Vertigo for seamless SIS lifecycle management",
+        },
+        {
+          aspect: "Vulnerability Analysis",
+          traditional: "Manual identification of system weak points",
+          modern: "Automated minimum cut set analysis with interactive reporting",
+        },
+        {
+          aspect: "Sensitivity Analysis",
+          traditional: "Time-consuming manual recalculation for each scenario",
+          modern: "Built-in statistical sensitivity analysis tools",
+        },
+      ],
+    },
   },
   {
     id: "bowtie-q",
@@ -209,6 +316,40 @@ export const softwareProducts: SoftwareProduct[] = [
       title: "Bowtie-Q - Quantitative Bowtie Analysis - Kenexis",
       description:
         "Interactive quantitative bowtie analysis with automatic risk calculations and TMEL compliance tracking.",
+    },
+    comparisonTable: {
+      rows: [
+        {
+          aspect: "Diagram Building",
+          traditional: "Static diagrams in Visio or PowerPoint with no data linkage",
+          modern: "Interactive bowtie builder with automatic risk calculations",
+        },
+        {
+          aspect: "Risk Quantification",
+          traditional: "Qualitative assessments based on subjective judgment",
+          modern: "Quantitative risk calculations with TMEL compliance tracking",
+        },
+        {
+          aspect: "Revision Tracking",
+          traditional: "Manual version control with filename conventions",
+          modern: "Built-in revision tracking and version history",
+        },
+        {
+          aspect: "TMEL Compliance",
+          traditional: "Separate compliance tracking in spreadsheets",
+          modern: "Automatic TMEL compliance verification within the analysis",
+        },
+        {
+          aspect: "Visualization",
+          traditional: "Flat diagrams that cannot show risk magnitude",
+          modern: "Dynamic risk-weighted visualization of threats and barriers",
+        },
+        {
+          aspect: "Reporting",
+          traditional: "Manual report assembly from multiple sources",
+          modern: "One-click export with integrated study dashboards",
+        },
+      ],
     },
   },
   {
@@ -250,6 +391,40 @@ export const softwareProducts: SoftwareProduct[] = [
       description:
         "Structured validation and auditing for IEC 61511 and OSHA 1910.119 with assessor worksheets and compliance tracking.",
     },
+    comparisonTable: {
+      rows: [
+        {
+          aspect: "Pricing",
+          traditional: "Expensive per-seat licensing for audit software",
+          modern: "Free desktop version with affordable cloud upgrade",
+        },
+        {
+          aspect: "Assessment Workflow",
+          traditional: "Unstructured checklists in spreadsheets or documents",
+          modern: "Guided assessor worksheets with built-in scoring criteria",
+        },
+        {
+          aspect: "Evidence Management",
+          traditional: "Scattered files across shared drives and email",
+          modern: "Centralized evidence documentation attached to each finding",
+        },
+        {
+          aspect: "Compliance Standards",
+          traditional: "Manual cross-referencing of IEC 61511 and OSHA requirements",
+          modern: "Pre-built template libraries mapped to common standards",
+        },
+        {
+          aspect: "Audit Tracking",
+          traditional: "Spreadsheet-based action item tracking with no follow-up",
+          modern: "Integrated audit tracking with follow-up management",
+        },
+        {
+          aspect: "Platform Access",
+          traditional: "Windows-only desktop applications",
+          modern: "Cross-platform (Windows, Mac, Linux) with cloud option",
+        },
+      ],
+    },
   },
   {
     id: "effigy",
@@ -286,6 +461,40 @@ export const softwareProducts: SoftwareProduct[] = [
       description:
         "Patented fire and gas mapping with plume modeling, 3D CAD import, and ISA-TR84.00.07 compliance for optimal detector placement.",
     },
+    comparisonTable: {
+      rows: [
+        {
+          aspect: "Detection Coverage Analysis",
+          traditional: "Rule-of-thumb detector placement without verification",
+          modern: "Quantitative coverage analysis with grade-based reporting",
+        },
+        {
+          aspect: "3D Modeling",
+          traditional: "2D floor plans that miss vertical obstructions",
+          modern: "Full 3D CAD import (STL) for realistic facility modeling",
+        },
+        {
+          aspect: "Plume Simulation",
+          traditional: "Simplified dispersion estimates or no simulation at all",
+          modern: "Patented plume modeling technology for accurate gas dispersion",
+        },
+        {
+          aspect: "Coverage Grading",
+          traditional: "Subjective assessment of detection adequacy",
+          modern: "ISA-TR84.00.07 compliant coverage grades (A/B/C)",
+        },
+        {
+          aspect: "Detector Optimization",
+          traditional: "Trial and error placement with manual recalculation",
+          modern: "Automated detector placement optimization for maximum coverage",
+        },
+        {
+          aspect: "Standards Compliance",
+          traditional: "Manual documentation of compliance with safety standards",
+          modern: "Built-in ISA-TR84.00.07 compliance verification and reporting",
+        },
+      ],
+    },
   },
   {
     id: "kiss-api",
@@ -321,6 +530,35 @@ export const softwareProducts: SoftwareProduct[] = [
       title: "KISS API - Data Integration - Kenexis",
       description:
         "Programmatic access to KISS platform data for Power BI, Tableau, CMMS, and ERP integration with JSON format.",
+    },
+    comparisonTable: {
+      rows: [
+        {
+          aspect: "Data Access",
+          traditional: "Manual data export via spreadsheets and file transfers",
+          modern: "Programmatic JSON API with up to 1M calls per year",
+        },
+        {
+          aspect: "Business Intelligence",
+          traditional: "Static reports requiring manual assembly",
+          modern: "Direct integration with Power BI, Tableau, and custom dashboards",
+        },
+        {
+          aspect: "Data Silos",
+          traditional: "Disconnected safety studies isolated in separate tools",
+          modern: "Unified data access across all KISS platform modules",
+        },
+        {
+          aspect: "Human Error Risk",
+          traditional: "Manual data entry and transcription between systems",
+          modern: "Automated data synchronization eliminating manual re-entry",
+        },
+        {
+          aspect: "Enterprise Integration",
+          traditional: "No connectivity with CMMS, ERP, or business systems",
+          modern: "Direct CMMS and ERP system connectivity via standard API",
+        },
+      ],
     },
   },
 ];
