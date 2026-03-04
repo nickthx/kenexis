@@ -97,8 +97,8 @@ Requirements for the full pitch demo. Each maps to roadmap phases.
 
 ### Technical
 
-- [ ] **TECH-01**: Site is fully responsive and mobile-first, working correctly from 320px to 1440px+ viewports
-- [ ] **TECH-02**: All pages load under 3 seconds with optimized images (WebP, lazy loading) and minimal JS bundle
+- [x] **TECH-01**: Site is fully responsive and mobile-first, working correctly from 320px to 1440px+ viewports
+- [x] **TECH-02**: All pages load under 3 seconds with optimized images (WebP, lazy loading) and minimal JS bundle
 - [ ] **TECH-03**: All pages have proper SEO metadata (title, description, Open Graph) so Vercel URL previews correctly when shared
 - [ ] **TECH-04**: Site is deployed to Vercel with a shareable URL
 - [ ] **TECH-05**: All external links (KISS login, Kenexis Store, LinkedIn, YouTube, Spotify) open in new tabs and work correctly
@@ -194,8 +194,8 @@ Deferred to production adoption phase. Not in current roadmap.
 | VIS-04 | Phase 4 | Complete |
 | VIS-05 | Phase 4 | Complete |
 | VIS-06 | Phase 4 | Complete |
-| TECH-01 | Phase 10 | Pending |
-| TECH-02 | Phase 10 | Pending |
+| TECH-01 | Phase 10 | Complete |
+| TECH-02 | Phase 10 | Complete |
 | TECH-03 | Phase 10 | Pending |
 | TECH-04 | Phase 10 | Pending |
 | TECH-05 | Phase 10 | Pending |
