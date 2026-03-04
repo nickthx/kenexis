@@ -59,8 +59,8 @@ Requirements for the full pitch demo. Each maps to roadmap phases.
 
 ### Training
 
-- [ ] **TRAIN-01**: User sees training page with course listings showing course names, descriptions, formats, and links to details/registration
-- [ ] **TRAIN-02**: User sees Kenexis Unlimited subscription overview with SaaS-style presentation of what's included (all software + all training access)
+- [x] **TRAIN-01**: User sees training page with course listings showing course names, descriptions, formats, and links to details/registration
+- [x] **TRAIN-02**: User sees Kenexis Unlimited subscription overview with SaaS-style presentation of what's included (all software + all training access)
 
 ### Resources
 
@@ -174,8 +174,8 @@ Deferred to production adoption phase. Not in current roadmap.
 | SOFT-09 | Phase 7 | Complete |
 | SOFT-10 | Phase 7 | Complete |
 | SOFT-11 | Phase 6 | Complete |
-| TRAIN-01 | Phase 8 | Pending |
-| TRAIN-02 | Phase 8 | Pending |
+| TRAIN-01 | Phase 8 | Complete |
+| TRAIN-02 | Phase 8 | Complete |
 | RES-01 | Phase 8 | Pending |
 | RES-02 | Phase 8 | Pending |
 | RES-03 | Phase 8 | Pending |

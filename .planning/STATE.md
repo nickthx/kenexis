@@ -3,12 +3,12 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: unknown
-last_updated: "2026-03-04T03:15:22.951Z"
+last_updated: "2026-03-04T03:33:00Z"
 progress:
-  total_phases: 7
+  total_phases: 8
   completed_phases: 7
-  total_plans: 15
-  completed_plans: 15
+  total_plans: 16
+  completed_plans: 16
 ---
 
 # Project State
@@ -18,23 +18,23 @@ progress:
 See: .planning/PROJECT.md (updated 2026-03-03)
 
 **Core value:** Every page of kenexis.com faithfully reproduced with a dramatically better, premium visual design -- deployed live on Vercel as a convincing pitch demo.
-**Current focus:** Phase 7 complete -- all 7 software product pages verified and approved
+**Current focus:** Phase 8 in progress -- training page and resources hub complete, awaiting visual verification
 
 ## Current Position
 
-Phase: 7 of 10 (Software Products Complete) -- COMPLETE
-Plan: 2 of 2 in current phase (07-02 complete)
-Status: Phase 7 complete -- all 7 software product pages verified and approved
-Last activity: 2026-03-04 -- Completed 07-02 (Visual verification of all product pages)
+Phase: 8 of 10 (Training & Resources)
+Plan: 2 of 3 in current phase (08-02 complete)
+Status: Resources hub page built at /resources with all sections -- awaiting 08-03 visual verification
+Last activity: 2026-03-04 -- Completed 08-02 (Resources page with categories, webinars, papers, podcast, newsletter)
 
-Progress: [████████░░] 75%
+Progress: [█████████░] 80%
 
 ## Performance Metrics
 
 **Velocity:**
-- Total plans completed: 15
-- Average duration: 4.3 min
-- Total execution time: 1.1 hours
+- Total plans completed: 17
+- Average duration: 4.2 min
+- Total execution time: 1.2 hours
 
 **By Phase:**
 
@@ -47,9 +47,10 @@ Progress: [████████░░] 75%
 | 05 | 2/2 completed | 4 min | 2 min |
 | 06 | 3/3 completed | 6 min | 2 min |
 | 07 | 2/2 completed | 4 min | 2 min |
+| 08 | 1/3 completed | 4 min | 4 min |
 
 **Recent Trend:**
-- Last 5 plans: 06-01 (3 min), 06-02 (2 min), 06-03 (1 min), 07-01 (3 min), 07-02 (1 min)
+- Last 5 plans: 06-02 (2 min), 06-03 (1 min), 07-01 (3 min), 07-02 (1 min), 08-01 (4 min)
 - Trend: Fast execution continues
 
 *Updated after each plan completion*
@@ -102,6 +103,9 @@ Recent decisions affecting current work:
 - [07-01]: Comparison section placed between features and integrations for persuasion funnel flow
 - [07-01]: Integrations background changed from bg-muted/50 to bg-background for alternating visual rhythm
 - [07-02]: All 7 product pages approved without modifications -- no gap closure needed, Phase 7 complete
+- [08-01]: Category grouping with icon + heading + description for each course category
+- [08-01]: External 'Register on KISS' links use anchor tags with target=_blank (not Link component)
+- [08-01]: Info grid uses circular icon containers with accent/10 background for visual consistency
 
 ### Pending Todos
 
@@ -115,5 +119,5 @@ None.
 ## Session Continuity
 
 Last session: 2026-03-04
-Stopped at: Completed 07-02-PLAN.md -- Phase 7 complete, all software product pages verified
+Stopped at: Completed 08-01-PLAN.md -- Training landing page with course catalog and Kenexis Unlimited
 Resume file: None
