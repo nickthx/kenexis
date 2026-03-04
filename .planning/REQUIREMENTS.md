@@ -49,12 +49,12 @@ Requirements for the full pitch demo. Each maps to roadmap phases.
 - [x] **SOFT-02**: User sees interactive product ecosystem visualization showing how all 7 KISS products interrelate within the platform
 - [x] **SOFT-03**: User can read dedicated Open-PHA® product page with SaaS-style hero, feature grid, benefits section, and CTA to KISS platform
 - [x] **SOFT-04**: User can read dedicated Vertigo™ product page with same SaaS-style structure
-- [ ] **SOFT-05**: User can read dedicated Arbor™ product page with same structure
-- [ ] **SOFT-06**: User can read dedicated Bowtie-Q™ product page with same structure
-- [ ] **SOFT-07**: User can read dedicated Open-Audit™ product page with same structure
-- [ ] **SOFT-08**: User can read dedicated Effigy® product page with same structure
-- [ ] **SOFT-09**: User can read dedicated KISS API™ product page with same structure
-- [ ] **SOFT-10**: User sees comparison tables on software product pages showing modern capabilities vs traditional approaches
+- [x] **SOFT-05**: User can read dedicated Arbor™ product page with same structure
+- [x] **SOFT-06**: User can read dedicated Bowtie-Q™ product page with same structure
+- [x] **SOFT-07**: User can read dedicated Open-Audit™ product page with same structure
+- [x] **SOFT-08**: User can read dedicated Effigy® product page with same structure
+- [x] **SOFT-09**: User can read dedicated KISS API™ product page with same structure
+- [x] **SOFT-10**: User sees comparison tables on software product pages showing modern capabilities vs traditional approaches
 - [x] **SOFT-11**: User sees clear CTAs linking to KISS platform login (kiss.kenexis.com) and Kenexis Store (store.kenexis.com)
 
 ### Training
@@ -167,12 +167,12 @@ Deferred to production adoption phase. Not in current roadmap.
 | SOFT-02 | Phase 6 | Complete |
 | SOFT-03 | Phase 6 | Complete |
 | SOFT-04 | Phase 6 | Complete |
-| SOFT-05 | Phase 7 | Pending |
-| SOFT-06 | Phase 7 | Pending |
-| SOFT-07 | Phase 7 | Pending |
-| SOFT-08 | Phase 7 | Pending |
-| SOFT-09 | Phase 7 | Pending |
-| SOFT-10 | Phase 7 | Pending |
+| SOFT-05 | Phase 7 | Complete |
+| SOFT-06 | Phase 7 | Complete |
+| SOFT-07 | Phase 7 | Complete |
+| SOFT-08 | Phase 7 | Complete |
+| SOFT-09 | Phase 7 | Complete |
+| SOFT-10 | Phase 7 | Complete |
 | SOFT-11 | Phase 6 | Complete |
 | TRAIN-01 | Phase 8 | Pending |
 | TRAIN-02 | Phase 8 | Pending |
