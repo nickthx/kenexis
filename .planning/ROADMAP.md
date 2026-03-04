@@ -17,7 +17,7 @@ Decimal phases appear between their surrounding integers in numeric order.
 - [x] **Phase 3: Layout Shell & Navigation** - Sticky header with mega menu, mobile navigation, footer, breadcrumbs, and page transition infrastructure (completed 2026-03-03)
 - [x] **Phase 4: Homepage & Visual Design System** - Complete homepage with all sections, reusable section components, scroll animations, and established visual language (completed 2026-03-04)
 - [x] **Phase 5: Services Pages** - Services landing page plus all four service detail pages with cross-links (completed 2026-03-04)
-- [ ] **Phase 6: Software Products - Core** - Software landing page, product ecosystem visualization, Open-PHA and Vertigo product pages, KISS platform CTAs
+- [x] **Phase 6: Software Products - Core** - Software landing page, product ecosystem visualization, Open-PHA and Vertigo product pages, KISS platform CTAs (completed 2026-03-04)
 - [ ] **Phase 7: Software Products - Complete** - Remaining five product pages (Arbor, Bowtie-Q, Open-Audit, Effigy, KISS API) plus comparison tables
 - [ ] **Phase 8: Training & Resources** - Training page with courses and Kenexis Unlimited, resource hub with all content types
 - [ ] **Phase 9: Company, Careers & Contact** - About page with team grid, representatives, careers page, and contact form
@@ -116,9 +116,9 @@ Plans:
 **Plans**: 3 plans
 
 Plans:
-- [ ] 06-01-PLAN.md — Software landing page with KISS hero, 7-product grid, AnimatedBeam ecosystem visualization, and external CTAs
-- [ ] 06-02-PLAN.md — Reusable SaaS-style product detail sections and dynamic [slug] route for Open-PHA and Vertigo pages
-- [ ] 06-03-PLAN.md — Visual verification checkpoint for software landing page and product detail pages
+- [x] 06-01-PLAN.md — Software landing page with KISS hero, 7-product grid, AnimatedBeam ecosystem visualization, and external CTAs
+- [x] 06-02-PLAN.md — Reusable SaaS-style product detail sections and dynamic [slug] route for Open-PHA and Vertigo pages
+- [x] 06-03-PLAN.md — Visual verification checkpoint for software landing page and product detail pages
 
 ### Phase 7: Software Products - Complete
 **Goal**: Users can explore every KISS platform product with dedicated pages and comparison tables showing modern vs. traditional approaches
@@ -195,7 +195,7 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4 -> 5 (and 6, 8, 9 can parallel
 | 3. Layout Shell & Navigation | 2/2 | Complete   | 2026-03-03 |
 | 4. Homepage & Visual Design System | 3/3 | Complete | 2026-03-04 |
 | 5. Services Pages | 2/2 | Complete | 2026-03-04 |
-| 6. Software Products - Core | 0/3 | Not started | - |
+| 6. Software Products - Core | 3/3 | Complete | 2026-03-04 |
 | 7. Software Products - Complete | 0/0 | Not started | - |
 | 8. Training & Resources | 0/0 | Not started | - |
 | 9. Company, Careers & Contact | 0/0 | Not started | - |
