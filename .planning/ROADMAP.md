@@ -113,12 +113,12 @@ Plans:
   3. User can read the Open-PHA product page with SaaS-style hero, feature grid, benefits section, and CTA linking to KISS platform
   4. User can read the Vertigo product page with the same SaaS-style structure
   5. User sees clear CTAs linking to kiss.kenexis.com (login) and store.kenexis.com (purchase) that open in new tabs
-**Plans**: TBD
+**Plans**: 3 plans
 
 Plans:
-- [ ] 06-01: TBD
-- [ ] 06-02: TBD
-- [ ] 06-03: TBD
+- [ ] 06-01-PLAN.md — Software landing page with KISS hero, 7-product grid, AnimatedBeam ecosystem visualization, and external CTAs
+- [ ] 06-02-PLAN.md — Reusable SaaS-style product detail sections and dynamic [slug] route for Open-PHA and Vertigo pages
+- [ ] 06-03-PLAN.md — Visual verification checkpoint for software landing page and product detail pages
 
 ### Phase 7: Software Products - Complete
 **Goal**: Users can explore every KISS platform product with dedicated pages and comparison tables showing modern vs. traditional approaches
@@ -195,7 +195,7 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4 -> 5 (and 6, 8, 9 can parallel
 | 3. Layout Shell & Navigation | 2/2 | Complete   | 2026-03-03 |
 | 4. Homepage & Visual Design System | 3/3 | Complete | 2026-03-04 |
 | 5. Services Pages | 2/2 | Complete | 2026-03-04 |
-| 6. Software Products - Core | 0/0 | Not started | - |
+| 6. Software Products - Core | 0/3 | Not started | - |
 | 7. Software Products - Complete | 0/0 | Not started | - |
 | 8. Training & Resources | 0/0 | Not started | - |
 | 9. Company, Careers & Contact | 0/0 | Not started | - |
