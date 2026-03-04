@@ -84,9 +84,9 @@ Plans:
 **Plans**: 3 plans
 
 Plans:
-- [ ] 04-01-PLAN.md — Install shadcn Input, create NumberTicker component, build HeroSection + PillarsSection, replace homepage placeholder
-- [ ] 04-02-PLAN.md — Create StatsSection, FeaturedContentSection, NewsletterSection, ContactCTASection, wire all 6 sections into homepage
-- [ ] 04-03-PLAN.md — Visual verification checkpoint for complete homepage
+- [x] 04-01-PLAN.md — Install shadcn Input, create NumberTicker component, build HeroSection + PillarsSection, replace homepage placeholder
+- [x] 04-02-PLAN.md — Create StatsSection, FeaturedContentSection, NewsletterSection, ContactCTASection, wire all 6 sections into homepage
+- [x] 04-03-PLAN.md — Visual verification checkpoint for complete homepage
 
 ### Phase 5: Services Pages
 **Goal**: Users can explore all four Kenexis consulting service areas through a polished landing page and individual detail pages
