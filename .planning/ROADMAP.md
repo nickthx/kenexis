@@ -13,10 +13,10 @@ This roadmap delivers a complete, production-quality visual redesign of kenexis.
 Decimal phases appear between their surrounding integers in numeric order.
 
 - [x] **Phase 1: Foundation & Scaffolding** - Next.js 15 project setup, brand design system, shadcn/ui initialization, and 21st.dev component evaluation
-- [ ] **Phase 2: Content Scraping & Data Layer** - Scrape all kenexis.com content into typed TypeScript data files, download all images locally
+- [x] **Phase 2: Content Scraping & Data Layer** - Scrape all kenexis.com content into typed TypeScript data files, download all images locally (completed 2026-03-03)
 - [x] **Phase 3: Layout Shell & Navigation** - Sticky header with mega menu, mobile navigation, footer, breadcrumbs, and page transition infrastructure (completed 2026-03-03)
-- [ ] **Phase 4: Homepage & Visual Design System** - Complete homepage with all sections, reusable section components, scroll animations, and established visual language
-- [ ] **Phase 5: Services Pages** - Services landing page plus all four service detail pages with cross-links
+- [x] **Phase 4: Homepage & Visual Design System** - Complete homepage with all sections, reusable section components, scroll animations, and established visual language (completed 2026-03-04)
+- [x] **Phase 5: Services Pages** - Services landing page plus all four service detail pages with cross-links (completed 2026-03-04)
 - [ ] **Phase 6: Software Products - Core** - Software landing page, product ecosystem visualization, Open-PHA and Vertigo product pages, KISS platform CTAs
 - [ ] **Phase 7: Software Products - Complete** - Remaining five product pages (Arbor, Bowtie-Q, Open-Audit, Effigy, KISS API) plus comparison tables
 - [ ] **Phase 8: Training & Resources** - Training page with courses and Kenexis Unlimited, resource hub with all content types
@@ -100,8 +100,8 @@ Plans:
 **Plans**: 2 plans
 
 Plans:
-- [ ] 05-01-PLAN.md — Services landing page (hero + grid), dynamic service detail pages (all 4 slugs), section components, and related services cross-links
-- [ ] 05-02-PLAN.md — Visual verification checkpoint for complete services section
+- [x] 05-01-PLAN.md — Services landing page (hero + grid), dynamic service detail pages (all 4 slugs), section components, and related services cross-links
+- [x] 05-02-PLAN.md — Visual verification checkpoint for complete services section
 
 ### Phase 6: Software Products - Core
 **Goal**: Users can explore the KISS software platform overview and the two flagship product pages in a modern SaaS-style presentation
@@ -193,8 +193,8 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4 -> 5 (and 6, 8, 9 can parallel
 | 1. Foundation & Scaffolding | 1/1 | Complete | 2026-03-03 |
 | 2. Content Scraping & Data Layer | 2/2 | Complete | 2026-03-03 |
 | 3. Layout Shell & Navigation | 2/2 | Complete   | 2026-03-03 |
-| 4. Homepage & Visual Design System | 0/0 | Not started | - |
-| 5. Services Pages | 0/0 | Not started | - |
+| 4. Homepage & Visual Design System | 3/3 | Complete | 2026-03-04 |
+| 5. Services Pages | 2/2 | Complete | 2026-03-04 |
 | 6. Software Products - Core | 0/0 | Not started | - |
 | 7. Software Products - Complete | 0/0 | Not started | - |
 | 8. Training & Resources | 0/0 | Not started | - |
