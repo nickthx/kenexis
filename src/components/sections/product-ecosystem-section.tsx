@@ -56,67 +56,112 @@ export function ProductEcosystemSection({
           </motion.p>
         </div>
 
-        {/* Ecosystem visualization */}
-        <div
-          ref={containerRef}
-          className="relative min-h-[500px] mx-auto max-w-4xl"
-        >
-          {/* Center KISS hub */}
-          <div
-            ref={kissRef}
-            className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-10 flex h-20 w-20 items-center justify-center rounded-full bg-accent text-white font-bold text-lg shadow-lg shadow-accent/30"
-          >
-            KISS
+        {/* Mobile: Grid layout (below md breakpoint) */}
+        <div className="block md:hidden">
+          {/* KISS hub centered */}
+          <div className="flex justify-center mb-8">
+            <div className="flex h-20 w-20 items-center justify-center rounded-full bg-accent text-white font-bold text-lg shadow-lg shadow-accent/30">
+              KISS
+            </div>
           </div>
+          {/* Product grid */}
+          <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
+            {products.map((product, i) => {
+              const Icon = getNavIcon(product.icon);
+              return (
+                <motion.div
+                  key={product.id}
+                  initial={{ opacity: 0, y: 20 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true }}
+                  transition={{ delay: i * 0.1 }}
+                  className="flex flex-col items-center gap-2 p-4 rounded-lg bg-white/10 border border-white/20"
+                >
+                  <div className="flex h-12 w-12 items-center justify-center rounded-full bg-white/10">
+                    {Icon && (
+                      <Icon
+                        className="text-accent"
+                        size={24}
+                        strokeWidth={1.5}
+                      />
+                    )}
+                  </div>
+                  <span className="text-sm font-medium text-navy-200 text-center">
+                    {product.name}
+                  </span>
+                </motion.div>
+              );
+            })}
+          </div>
+        </div>
 
-          {/* Product nodes arranged in a circle */}
-          {products.map((product, i) => {
-            const Icon = getNavIcon(product.icon);
-            const pos = getCirclePosition(i, products.length, 38);
+        {/* Desktop: Circular ecosystem visualization (md and above) */}
+        <div className="hidden md:block">
+          <div
+            ref={containerRef}
+            className="relative min-h-[500px] mx-auto max-w-4xl"
+          >
+            {/* Center KISS hub */}
+            <div
+              ref={kissRef}
+              className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-10 flex h-20 w-20 items-center justify-center rounded-full bg-accent text-white font-bold text-lg shadow-lg shadow-accent/30"
+            >
+              KISS
+            </div>
 
-            return (
-              <div
-                key={product.id}
-                ref={setProductRef(i)}
-                className="absolute z-10 flex flex-col items-center gap-1"
-                style={{
-                  left: `${pos.x}%`,
-                  top: `${pos.y}%`,
-                  transform: "translate(-50%, -50%)",
-                }}
-              >
-                <div className="flex h-16 w-16 items-center justify-center rounded-full bg-white/10 border border-white/20 backdrop-blur">
-                  {Icon && (
-                    <Icon className="text-accent" size={28} strokeWidth={1.5} />
-                  )}
+            {/* Product nodes arranged in a circle */}
+            {products.map((product, i) => {
+              const Icon = getNavIcon(product.icon);
+              const pos = getCirclePosition(i, products.length, 38);
+
+              return (
+                <div
+                  key={product.id}
+                  ref={setProductRef(i)}
+                  className="absolute z-10 flex flex-col items-center gap-1"
+                  style={{
+                    left: `${pos.x}%`,
+                    top: `${pos.y}%`,
+                    transform: "translate(-50%, -50%)",
+                  }}
+                >
+                  <div className="flex h-16 w-16 items-center justify-center rounded-full bg-white/10 border border-white/20 backdrop-blur">
+                    {Icon && (
+                      <Icon
+                        className="text-accent"
+                        size={28}
+                        strokeWidth={1.5}
+                      />
+                    )}
+                  </div>
+                  <span className="text-xs font-medium text-navy-200 whitespace-nowrap">
+                    {product.name}
+                  </span>
                 </div>
-                <span className="text-xs font-medium text-navy-200 whitespace-nowrap">
-                  {product.name}
-                </span>
-              </div>
-            );
-          })}
+              );
+            })}
 
-          {/* Animated beams connecting each product to KISS center */}
-          {products.map((product, i) => (
-            <AnimatedBeam
-              key={`beam-${product.id}`}
-              containerRef={containerRef as React.RefObject<HTMLElement>}
-              fromRef={
-                {
-                  get current() {
-                    return productRefs.current[i];
-                  },
-                } as React.RefObject<HTMLElement>
-              }
-              toRef={kissRef as React.RefObject<HTMLElement>}
-              gradientStartColor="#e87722"
-              gradientStopColor="#0a1628"
-              pathColor="rgba(255,255,255,0.15)"
-              delay={i * 0.5}
-              duration={4}
-            />
-          ))}
+            {/* Animated beams connecting each product to KISS center */}
+            {products.map((product, i) => (
+              <AnimatedBeam
+                key={`beam-${product.id}`}
+                containerRef={containerRef as React.RefObject<HTMLElement>}
+                fromRef={
+                  {
+                    get current() {
+                      return productRefs.current[i];
+                    },
+                  } as React.RefObject<HTMLElement>
+                }
+                toRef={kissRef as React.RefObject<HTMLElement>}
+                gradientStartColor="#e87722"
+                gradientStopColor="#0a1628"
+                pathColor="rgba(255,255,255,0.15)"
+                delay={i * 0.5}
+                duration={4}
+              />
+            ))}
+          </div>
         </div>
       </div>
     </section>
