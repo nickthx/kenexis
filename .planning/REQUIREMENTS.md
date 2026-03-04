@@ -64,12 +64,12 @@ Requirements for the full pitch demo. Each maps to roadmap phases.
 
 ### Resources
 
-- [ ] **RES-01**: User sees centralized resource hub page with all content types organized and categorized
-- [ ] **RES-02**: User can view recorded webinar listings with titles, descriptions, and embedded/linked YouTube videos
-- [ ] **RES-03**: User can access papers, articles, and books listings
-- [ ] **RES-04**: User can see Kenexis Functional Safety Podcast section with episode listings linking to Spotify
-- [ ] **RES-05**: User sees links to YouTube channel and RSS feed
-- [ ] **RES-06**: User can register for the newsletter from the resources page
+- [x] **RES-01**: User sees centralized resource hub page with all content types organized and categorized
+- [x] **RES-02**: User can view recorded webinar listings with titles, descriptions, and embedded/linked YouTube videos
+- [x] **RES-03**: User can access papers, articles, and books listings
+- [x] **RES-04**: User can see Kenexis Functional Safety Podcast section with episode listings linking to Spotify
+- [x] **RES-05**: User sees links to YouTube channel and RSS feed
+- [x] **RES-06**: User can register for the newsletter from the resources page
 
 ### Company
 
@@ -176,12 +176,12 @@ Deferred to production adoption phase. Not in current roadmap.
 | SOFT-11 | Phase 6 | Complete |
 | TRAIN-01 | Phase 8 | Complete |
 | TRAIN-02 | Phase 8 | Complete |
-| RES-01 | Phase 8 | Pending |
-| RES-02 | Phase 8 | Pending |
-| RES-03 | Phase 8 | Pending |
-| RES-04 | Phase 8 | Pending |
-| RES-05 | Phase 8 | Pending |
-| RES-06 | Phase 8 | Pending |
+| RES-01 | Phase 8 | Complete |
+| RES-02 | Phase 8 | Complete |
+| RES-03 | Phase 8 | Complete |
+| RES-04 | Phase 8 | Complete |
+| RES-05 | Phase 8 | Complete |
+| RES-06 | Phase 8 | Complete |
 | COMP-01 | Phase 9 | Pending |
 | COMP-02 | Phase 9 | Pending |
 | COMP-03 | Phase 9 | Pending |

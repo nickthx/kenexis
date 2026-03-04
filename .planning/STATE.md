@@ -47,10 +47,10 @@ Progress: [█████████░] 80%
 | 05 | 2/2 completed | 4 min | 2 min |
 | 06 | 3/3 completed | 6 min | 2 min |
 | 07 | 2/2 completed | 4 min | 2 min |
-| 08 | 1/3 completed | 4 min | 4 min |
+| 08 | 2/3 completed | 8 min | 4 min |
 
 **Recent Trend:**
-- Last 5 plans: 06-02 (2 min), 06-03 (1 min), 07-01 (3 min), 07-02 (1 min), 08-01 (4 min)
+- Last 5 plans: 06-03 (1 min), 07-01 (3 min), 07-02 (1 min), 08-01 (4 min), 08-02 (4 min)
 - Trend: Fast execution continues
 
 *Updated after each plan completion*
@@ -106,6 +106,9 @@ Recent decisions affecting current work:
 - [08-01]: Category grouping with icon + heading + description for each course category
 - [08-01]: External 'Register on KISS' links use anchor tags with target=_blank (not Link component)
 - [08-01]: Info grid uses circular icon containers with accent/10 background for visual consistency
+- [08-02]: Local iconMap used instead of getNavIcon for resource-specific Lucide icons
+- [08-02]: NewsletterSection made reusable via optional props with ?? fallback to homeNewsletterCTA
+- [08-02]: hero-control-room.jpg reused for resources hero (no resources-specific hero image)
 
 ### Pending Todos
 
@@ -119,5 +122,5 @@ None.
 ## Session Continuity
 
 Last session: 2026-03-04
-Stopped at: Completed 08-01-PLAN.md -- Training landing page with course catalog and Kenexis Unlimited
+Stopped at: Completed 08-02-PLAN.md -- Resources hub page with categories, webinars, papers, podcast, newsletter
 Resume file: None
