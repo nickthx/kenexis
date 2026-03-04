@@ -278,3 +278,16 @@ export const aboutSEO: SEOMeta = {
     "Founded in 2004, Kenexis is a process safety consulting and engineering firm specializing in technical safety services for chemical and energy facilities.",
   ogImage: "/images/stock/about-hero.jpg",
 };
+
+export const teamSEO: SEOMeta = {
+  title: "Meet the Team - Kenexis Process Safety",
+  description:
+    "Meet the experienced process safety engineers and consultants at Kenexis Consulting Corporation.",
+  ogImage: "/images/stock/about-hero.jpg",
+};
+
+export const representativesSEO: SEOMeta = {
+  title: "Global Representatives - Kenexis",
+  description:
+    "Find Kenexis representatives worldwide. Local support for process safety consulting, software, and training across North America, South America, Europe, Middle East, Asia Pacific, and Africa.",
+};
