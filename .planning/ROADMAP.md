@@ -128,11 +128,11 @@ Plans:
   1. User can read dedicated product pages for Arbor, Bowtie-Q, Open-Audit, Effigy, and KISS API -- each with the same SaaS-style structure established in Phase 6
   2. User sees comparison tables on software product pages showing modern KISS capabilities versus traditional approaches
   3. All seven product pages are accessible from the software landing page grid and from the mega menu navigation
-**Plans**: TBD
+**Plans**: 2 plans
 
 Plans:
-- [ ] 07-01: TBD
-- [ ] 07-02: TBD
+- [ ] 07-01-PLAN.md — Extend data layer with comparison tables, create ProductComparisonSection component, wire into product route
+- [ ] 07-02-PLAN.md — Visual verification checkpoint for all 7 product pages with comparison tables
 
 ### Phase 8: Training & Resources
 **Goal**: Users can explore Kenexis training offerings and access all resource content types from a centralized hub
@@ -196,7 +196,7 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4 -> 5 (and 6, 8, 9 can parallel
 | 4. Homepage & Visual Design System | 3/3 | Complete | 2026-03-04 |
 | 5. Services Pages | 2/2 | Complete | 2026-03-04 |
 | 6. Software Products - Core | 3/3 | Complete | 2026-03-04 |
-| 7. Software Products - Complete | 0/0 | Not started | - |
+| 7. Software Products - Complete | 0/2 | Not started | - |
 | 8. Training & Resources | 0/0 | Not started | - |
 | 9. Company, Careers & Contact | 0/0 | Not started | - |
 | 10. Polish, SEO & Deployment | 0/0 | Not started | - |
