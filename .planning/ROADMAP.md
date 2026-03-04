@@ -18,7 +18,7 @@ Decimal phases appear between their surrounding integers in numeric order.
 - [x] **Phase 4: Homepage & Visual Design System** - Complete homepage with all sections, reusable section components, scroll animations, and established visual language (completed 2026-03-04)
 - [x] **Phase 5: Services Pages** - Services landing page plus all four service detail pages with cross-links (completed 2026-03-04)
 - [x] **Phase 6: Software Products - Core** - Software landing page, product ecosystem visualization, Open-PHA and Vertigo product pages, KISS platform CTAs (completed 2026-03-04)
-- [ ] **Phase 7: Software Products - Complete** - Remaining five product pages (Arbor, Bowtie-Q, Open-Audit, Effigy, KISS API) plus comparison tables
+- [x] **Phase 7: Software Products - Complete** - Remaining five product pages (Arbor, Bowtie-Q, Open-Audit, Effigy, KISS API) plus comparison tables (completed 2026-03-04)
 - [ ] **Phase 8: Training & Resources** - Training page with courses and Kenexis Unlimited, resource hub with all content types
 - [ ] **Phase 9: Company, Careers & Contact** - About page with team grid, representatives, careers page, and contact form
 - [ ] **Phase 10: Polish, SEO & Deployment** - Responsive audit, performance optimization, SEO metadata, and Vercel deployment with shareable URL
@@ -131,8 +131,8 @@ Plans:
 **Plans**: 2 plans
 
 Plans:
-- [ ] 07-01-PLAN.md — Extend data layer with comparison tables, create ProductComparisonSection component, wire into product route
-- [ ] 07-02-PLAN.md — Visual verification checkpoint for all 7 product pages with comparison tables
+- [x] 07-01-PLAN.md — Extend data layer with comparison tables, create ProductComparisonSection component, wire into product route
+- [x] 07-02-PLAN.md — Visual verification checkpoint for all 7 product pages with comparison tables
 
 ### Phase 8: Training & Resources
 **Goal**: Users can explore Kenexis training offerings and access all resource content types from a centralized hub
@@ -196,7 +196,7 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4 -> 5 (and 6, 8, 9 can parallel
 | 4. Homepage & Visual Design System | 3/3 | Complete | 2026-03-04 |
 | 5. Services Pages | 2/2 | Complete | 2026-03-04 |
 | 6. Software Products - Core | 3/3 | Complete | 2026-03-04 |
-| 7. Software Products - Complete | 1/2 | In Progress | - |
+| 7. Software Products - Complete | 2/2 | Complete | 2026-03-04 |
 | 8. Training & Resources | 0/0 | Not started | - |
 | 9. Company, Careers & Contact | 0/0 | Not started | - |
 | 10. Polish, SEO & Deployment | 0/0 | Not started | - |
