@@ -31,7 +31,7 @@ export function ProductIntegrationsSection({
   productName,
 }: ProductIntegrationsSectionProps) {
   return (
-    <section className="py-16 sm:py-24 bg-muted/50">
+    <section className="py-16 sm:py-24 bg-background">
       <div className="mx-auto max-w-7xl px-4">
         <div className="max-w-3xl mx-auto text-center">
           <motion.h2

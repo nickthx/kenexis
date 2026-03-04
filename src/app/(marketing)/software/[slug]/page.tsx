@@ -8,6 +8,7 @@ import {
 import { ProductHeroSection } from "@/components/sections/product-hero-section";
 import { ProductFeaturesSection } from "@/components/sections/product-features-section";
 import { ProductIntegrationsSection } from "@/components/sections/product-integrations-section";
+import { ProductComparisonSection } from "@/components/sections/product-comparison-section";
 import { ProductDetailCTASection } from "@/components/sections/product-detail-cta-section";
 import { ContactCTASection } from "@/components/sections/contact-cta-section";
 
@@ -56,6 +57,12 @@ export default async function ProductDetailPage({
       <ProductFeaturesSection
         features={product.features}
         productName={product.name}
+      />
+      <ProductComparisonSection
+        productName={product.name}
+        trademark={product.trademark}
+        rows={product.comparisonTable.rows}
+        title={product.comparisonTable.title}
       />
       <ProductIntegrationsSection
         integrations={product.integrations}
