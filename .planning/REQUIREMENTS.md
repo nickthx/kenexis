@@ -79,12 +79,12 @@ Requirements for the full pitch demo. Each maps to roadmap phases.
 
 ### Careers
 
-- [ ] **CAREER-01**: User can view careers page with current job listings and company culture information
+- [x] **CAREER-01**: User can view careers page with current job listings and company culture information
 
 ### Contact
 
-- [ ] **CONTACT-01**: User can submit inquiry via contact form with fields: name, email, company, phone, message, and service interest dropdown
-- [ ] **CONTACT-02**: User sees phone number (+1-614-451-7031) and email (info@kenexis.com) prominently displayed on contact page and in header/footer
+- [x] **CONTACT-01**: User can submit inquiry via contact form with fields: name, email, company, phone, message, and service interest dropdown
+- [x] **CONTACT-02**: User sees phone number (+1-614-451-7031) and email (info@kenexis.com) prominently displayed on contact page and in header/footer
 
 ### Visual Design & Animation
 
@@ -185,9 +185,9 @@ Deferred to production adoption phase. Not in current roadmap.
 | COMP-01 | Phase 9 | Pending |
 | COMP-02 | Phase 9 | Pending |
 | COMP-03 | Phase 9 | Pending |
-| CAREER-01 | Phase 9 | Pending |
-| CONTACT-01 | Phase 9 | Pending |
-| CONTACT-02 | Phase 9 | Pending |
+| CAREER-01 | Phase 9 | Complete |
+| CONTACT-01 | Phase 9 | Complete |
+| CONTACT-02 | Phase 9 | Complete |
 | VIS-01 | Phase 4 | Complete |
 | VIS-02 | Phase 4 | Complete |
 | VIS-03 | Phase 4 | Complete |
