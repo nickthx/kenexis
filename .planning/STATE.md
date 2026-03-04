@@ -3,12 +3,12 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: unknown
-last_updated: "2026-03-03T23:21:25Z"
+last_updated: "2026-03-04T00:08:04Z"
 progress:
-  total_phases: 4
+  total_phases: 5
   completed_phases: 3
-  total_plans: 8
-  completed_plans: 7
+  total_plans: 10
+  completed_plans: 8
 ---
 
 # Project State
@@ -18,23 +18,23 @@ progress:
 See: .planning/PROJECT.md (updated 2026-03-03)
 
 **Core value:** Every page of kenexis.com faithfully reproduced with a dramatically better, premium visual design -- deployed live on Vercel as a convincing pitch demo.
-**Current focus:** Phase 4: Homepage Visual Design System (in progress)
+**Current focus:** Phase 5: Services Pages (in progress)
 
 ## Current Position
 
-Phase: 4 of 10 (Homepage Visual Design System) -- IN PROGRESS
-Plan: 2 of 3 in current phase (04-02 complete)
-Status: Executing Phase 4 -- all 6 homepage sections live
-Last activity: 2026-03-03 -- Completed 04-02 (Stats, Featured, Newsletter, CTA sections)
+Phase: 5 of 10 (Services Pages) -- IN PROGRESS
+Plan: 1 of 2 in current phase (05-01 complete)
+Status: Executing Phase 5 -- services landing + 4 detail pages live
+Last activity: 2026-03-04 -- Completed 05-01 (Services landing page and detail pages)
 
-Progress: [███████░░░] 70%
+Progress: [████████░░] 80%
 
 ## Performance Metrics
 
 **Velocity:**
-- Total plans completed: 8
-- Average duration: 6.5 min
-- Total execution time: 0.8 hours
+- Total plans completed: 9
+- Average duration: 6.2 min
+- Total execution time: 0.9 hours
 
 **By Phase:**
 
@@ -44,9 +44,10 @@ Progress: [███████░░░] 70%
 | 02 | 2/2 completed | 13 min | 6.5 min |
 | 03 | 2/2 completed | 15 min | 7.5 min |
 | 04 | 2/3 completed | 5 min | 2.5 min |
+| 05 | 1/2 completed | 3 min | 3 min |
 
 **Recent Trend:**
-- Last 5 plans: 02-02 (5 min), 03-01 (3 min), 03-02 (12 min), 04-01 (3 min), 04-02 (2 min)
+- Last 5 plans: 03-01 (3 min), 03-02 (12 min), 04-01 (3 min), 04-02 (2 min), 05-01 (3 min)
 - Trend: Fast execution continues
 
 *Updated after each plan completion*
@@ -82,6 +83,9 @@ Recent decisions affecting current work:
 - [04-02]: Newsletter form uses demo mode (useState only, no backend) with visual Subscribed confirmation
 - [04-02]: Section order follows engagement funnel: Hero > Pillars > Stats > Featured > Newsletter > Contact CTA
 - [04-02]: Alternating dark/light section backgrounds (navy-900, muted/50) for visual rhythm
+- [05-01]: ServicesHeroSection uses optional title/subtitle props -- reusable for both landing and detail pages
+- [05-01]: Interior hero sections use shorter height without -mt-16 (homepage-only effect)
+- [05-01]: Next.js 16 params-as-Promise pattern used for generateMetadata and dynamic page components
 
 ### Pending Todos
 
@@ -94,6 +98,6 @@ None.
 
 ## Session Continuity
 
-Last session: 2026-03-03
-Stopped at: Completed 04-02-PLAN.md -- Stats, Featured Content, Newsletter, ContactCTA sections (Phase 4 plan 2 of 3)
+Last session: 2026-03-04
+Stopped at: Completed 05-01-PLAN.md -- Services landing page and 4 detail pages (Phase 5 plan 1 of 2)
 Resume file: None

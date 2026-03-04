@@ -36,12 +36,12 @@ Requirements for the full pitch demo. Each maps to roadmap phases.
 
 ### Services
 
-- [ ] **SERV-01**: User sees services landing page with overview grid of all service areas (PHA, QRA, Fire & Gas Mapping, SIS)
-- [ ] **SERV-02**: User can read dedicated PHA/HAZOP/LOPA service detail page with problem statement, methodology, deliverables, and related services
-- [ ] **SERV-03**: User can read dedicated QRA service detail page with same structure
-- [ ] **SERV-04**: User can read dedicated Fire & Gas Mapping service detail page with same structure
-- [ ] **SERV-05**: User can read dedicated SIS Design service detail page with same structure
-- [ ] **SERV-06**: User sees related services cross-links at the bottom of each service detail page
+- [x] **SERV-01**: User sees services landing page with overview grid of all service areas (PHA, QRA, Fire & Gas Mapping, SIS)
+- [x] **SERV-02**: User can read dedicated PHA/HAZOP/LOPA service detail page with problem statement, methodology, deliverables, and related services
+- [x] **SERV-03**: User can read dedicated QRA service detail page with same structure
+- [x] **SERV-04**: User can read dedicated Fire & Gas Mapping service detail page with same structure
+- [x] **SERV-05**: User can read dedicated SIS Design service detail page with same structure
+- [x] **SERV-06**: User sees related services cross-links at the bottom of each service detail page
 
 ### Software Products
 
@@ -157,12 +157,12 @@ Deferred to production adoption phase. Not in current roadmap.
 | HOME-04 | Phase 4 | Complete |
 | HOME-05 | Phase 4 | Complete |
 | HOME-06 | Phase 4 | Complete |
-| SERV-01 | Phase 5 | Pending |
-| SERV-02 | Phase 5 | Pending |
-| SERV-03 | Phase 5 | Pending |
-| SERV-04 | Phase 5 | Pending |
-| SERV-05 | Phase 5 | Pending |
-| SERV-06 | Phase 5 | Pending |
+| SERV-01 | Phase 5 | Complete |
+| SERV-02 | Phase 5 | Complete |
+| SERV-03 | Phase 5 | Complete |
+| SERV-04 | Phase 5 | Complete |
+| SERV-05 | Phase 5 | Complete |
+| SERV-06 | Phase 5 | Complete |
 | SOFT-01 | Phase 6 | Pending |
 | SOFT-02 | Phase 6 | Pending |
 | SOFT-03 | Phase 6 | Pending |
